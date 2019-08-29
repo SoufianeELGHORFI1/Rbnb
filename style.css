@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+header{
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 130px 10px 65px 200px; 
+}
+h1{
+  margin: 0;
+  color: white;
+  font-size: 45px;
+  font-family: sans-serif;
+}
+.blocs {
+    display: flex;
+}
+
+.blocs p{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.one {
+    margin-right: 30px;
+}
+
+.one button {
+    background-color: white;
+    color: rgb(20, 20, 20);
+    padding: 13px 140px 13px 140px;
+    border: solid 2px white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.two button {
+    background-color: transparent;
+    color: white;
+    padding: 13px 140px 13px 140px;
+    border: solid 2px white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+/*MAIN*/
+
+main{
+    padding: 70px 0 0 200px;
+
+}
+h3{
+    margin: 0%;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(82, 80, 80);
+}
+.choice{
+    display: flex;
+    align-items: flex-end;
+}
+.choice p{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: rgb(82, 80, 80);
+}
+input{
+    font-size: 20px;
+    padding: 10px 20px 10px 15px;
+}
+.depart input{
+    margin: 0 10px 0 10px;
+}
+.butt button{
+    padding: 13px 30px 13px 30px;
+    background-color: rgb(240, 80, 62);
+    color: white;
+    border: solid 3px rgb(240, 80, 62);
+    border-radius: 7px;
+    font-family: sans-serif;
+}
+select{
+    margin-right: 10px; 
+    padding: 13px 30px 13px 30px;
+    background: transparent;
+}
+@media screen and (max-width: 1400px) {
+    .blocs{
+        flex-direction: column;
+    }
+    .choice{
+        display: block;
+    }
+    main{
+        padding: 70px 0 0 20px;
+    }
+}

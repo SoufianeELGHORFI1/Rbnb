@@ -1,11 +1,11 @@
 body {
-    margin: 0;
+    margin: 0; /*enlever les bordures*/
 }
-header{
-    background-image: url(1.jpg);
-    background-size: cover;
+header /*sémantique*/{
+    background-image: url(Images/1.jpg);
+    background-size: cover; /*pour que image prends tout la place*/
     background-repeat: no-repeat;
-    padding: 130px 10px 65px 200px; 
+    padding: 130px 10px 65px 200px; /*déplacer la div grand parents*/
 }
 h1{
   margin: 0;
@@ -13,7 +13,7 @@ h1{
   font-size: 45px;
   font-family: sans-serif;
 }
-.blocs {
+.blocs /*div parents*/ {
     display: flex;
 }
 
@@ -23,16 +23,16 @@ h1{
     font-family: sans-serif;
 }
 
-.one {
-    margin-right: 30px;
+.one /* div enfant 1*/ {
+    margin-right: 30px; /*pour séparer le texte au dessus du bouton*/
 }
 
 .one button {
     background-color: white;
     color: rgb(20, 20, 20);
-    padding: 13px 140px 13px 140px;
-    border: solid 2px white;
-    border-radius: 5px;
+    padding: 13px 140px 13px 140px; /* aggrandir le bouton*/
+    border: solid 2px white; /*changer texture le button*/
+    border-radius: 5px;/* même chose*/
     font-size: 18px;
     font-family: sans-serif;
 }
@@ -47,8 +47,8 @@ h1{
 }
 /*MAIN*/
 
-main{
-    padding: 70px 0 0 200px;
+main /*sémantique*/{
+    padding: 70px 0 0 200px; 
 
 }
 h3{
@@ -97,3 +97,156 @@ select{
         padding: 70px 0 0 20px;
     }
 }
+
+/*SECTION*/
+
+.uno /*section*/{
+    padding: 40px 0 0 200px;
+}
+
+.uno h4{
+    margin: 0%;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(82, 80, 80);
+}
+.little{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(82, 80, 80);
+}
+.blocimage{
+    display: flex;
+}
+.big{
+    height: 222px;
+    width: 333px;
+
+} 
+.profil{
+    display: flex;
+    
+}
+.profil img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+.profil p{
+    padding-left: 15px;
+}
+.image{
+    padding-right: 15px;
+}
+.image p{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(82, 80, 80);
+}
+
+/*SECTION 2*/
+
+.dos{
+    padding: 40px 0 0 200px;
+}
+
+.dos h4{
+    margin: 0%;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(82, 80, 80);
+    padding-bottom: 15px;
+}
+.hr{
+    margin: 0;
+    padding-right: 600px;
+}
+.fullinfo{
+    display: flex;
+    padding: 30px 0 0 0;
+}
+.fullinfo h5 {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(82, 80, 80);
+}
+.info{
+    margin-right: 50px;
+}
+.info img{
+    padding-bottom: 13px;
+}
+.info h5 {
+    margin: 0;
+}
+.info p{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(82, 80, 80);
+}
+
+
+/*Section 3*/
+
+.tres /*section*/{
+    padding: 40px 0 0 200px;
+}
+.tres h4{
+    margin: 0;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(82, 80, 80);
+    padding-bottom: 15px;
+}
+.fullreserved{
+    display: flex;
+}
+.reserved{
+    padding-right: 15px;
+}
+.pa{
+    padding-top: 5px
+}
+.inf /*image maison*/ {
+    height: 200px;
+    width: 250px;
+    padding-bottom: 5px;
+}
+.fullreserved h5{
+    margin: 0;
+    font-family: sans-serif;
+
+}
+.fullreserved p{
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(82, 80, 80);
+}
+.note {
+    display: flex;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (max-width: 1400px) {
+    .blocs{
+        flex-direction: column;
+    }
+    .choice{
+        display: block;
+    }
+    main{
+        padding: 70px 0 0 20px;
+    }
+}*/
